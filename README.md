@@ -32,7 +32,7 @@
 
 2. 外星侵略者
 
-      被测的 deployment/service 为外星飞船主舰，各个 Pod 为战机。玩家对 Pod 进行攻击（注入故障）。
+      被测的 deployment/service 为外星飞船主舰，各个 Pod 为战机。玩家对战机进行攻击（注入故障）。
 ![image](https://user-images.githubusercontent.com/5793595/148081072-5737cfe0-eeac-45a1-b7f6-707cb6813ce7.png)
 
 
@@ -44,6 +44,10 @@
 
 ![image](https://user-images.githubusercontent.com/5793595/148084172-3f4e6959-dc1b-468e-a206-0f3ef8fc920d.png)
 
+
+### 状态检测
+
+需要根据一定的数据来判断被测应用的状态是否正常。例如被测应用提供 health 接口，Chaos Mesh 每隔一定时间探测该接口，如果结果不正常，则被测应用在故障下运行失败，游戏结束。
 
 ## 参考项目
 
