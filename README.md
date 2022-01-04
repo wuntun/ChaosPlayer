@@ -1,6 +1,10 @@
 # ChaosPlayer
 
-成员：@WangXiangUSTC @meathill @tsthght @Startalkers
+成员：
+- [WangXiangUSTC](https://github.com/WangXiangUSTC) 
+- [meathill](https://github.com/meathill)
+- [tsthght](https://github.com/tsthght) 
+- [Startalkers](https://github.com/Startalkers)
 
 ## 项目介绍
 
@@ -28,7 +32,7 @@
 
 2. 外星侵略者
 
-       被测的 deployment/service 为外星飞船主舰，各个 Pod 为战机。玩家对 Pod 进行攻击（注入故障）。
+      被测的 deployment/service 为外星飞船主舰，各个 Pod 为战机。玩家对 Pod 进行攻击（注入故障）。
 ![image](https://user-images.githubusercontent.com/5793595/148081072-5737cfe0-eeac-45a1-b7f6-707cb6813ce7.png)
 
 
@@ -37,5 +41,5 @@
 
 ## 参考项目
 
-https://github.com/lucky-sideburn/KubeInvaders
-https://github.com/storax/kubedoom
+- https://github.com/lucky-sideburn/KubeInvaders
+- https://github.com/storax/kubedoom
