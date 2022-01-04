@@ -38,6 +38,12 @@
 
 目前游戏场景还在选择和设计中。
 
+### workflow 编辑器
+
+类似游戏的关卡设计编辑器，通过该编辑器先创建单个故障组件，然后通过拖拉、连线的方式将多个故障组件组合起来，编辑器自动生成 workflow 的配置。
+
+![image](https://user-images.githubusercontent.com/5793595/148084172-3f4e6959-dc1b-468e-a206-0f3ef8fc920d.png)
+
 
 ## 参考项目
 
